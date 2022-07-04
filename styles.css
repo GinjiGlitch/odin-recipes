@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+#recipes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  border: #000 1.5px solid;
+  margin: 8px 0;
+  padding: 8px 24px;
+  border-radius: 8px;
+  width: 25%;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.4s;
+  transition-timing-function: ease;
+}
+
+a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.main {
+  transform: translateY(50%);
+}
+
+h1 {
+  text-align: center;
+  margin: 36px 0;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+img {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  padding: 24px;
+  border-radius: 80px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description p {
+  width: 50%;
+  text-align: center;
+  margin: 24px;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+li {
+  margin: 4px 0;
+}
+
+.steps { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 36px;
+}
+
+ol li {
+  width: 50%;
+  margin: 8px 0;
+}
